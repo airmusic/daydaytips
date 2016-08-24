@@ -1,7 +1,5 @@
-##XCode8测试版本自动化构建<入坑指南>
+##XCode8鍏ュ潙鎸囧崡
 ------
-
-> 必须路径为Xcode.app
 
 ```shell
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
@@ -10,7 +8,7 @@ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 
 ------
 
-> 使用pyobjc需要RDMBuild
+> 瀹夎pyobjc
 
 ``` ruby
 sudo -H pip install pyobjc
